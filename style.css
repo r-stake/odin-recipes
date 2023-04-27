@@ -5,12 +5,16 @@ body {
     margin-right: 400px;
 }
 
-.text-center-aligned, div.container {
-    text-align: center;
+h2 {
+    color: magenta;
 }
 
-.text-left-aligned {
-    text-align: left;
+h3 {
+    color: midnightblue;
+}
+
+.text-center-aligned, .container.center {
+    text-align: center;
 }
 
 .center-aligned-ul {
@@ -18,12 +22,17 @@ body {
     text-align: left;
 }
 
-img {
-    height: auto;
-    width: 500px;
+.columns-ul {
+    column-count: 2;
+    column-gap: 50px;
 }
 
-.center {
+img {
+    height: auto;
+    width: 350px;
+}
+
+.img-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -34,5 +43,7 @@ p, li {
 }
 
 div.container ul li{
-    font-size: 16px;
+    background-color: teal;
+    color: orange;
+    font-weight: 900;
 }
